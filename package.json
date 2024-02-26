@@ -6,7 +6,6 @@
     "prettier": "prettier --write --ignore-unknown .",
     "prettier:check": "prettier --check --ignore-unknown .",
     "start": "next start",
-    "lint": "next lint",
     "seed": "node -r dotenv/config ./scripts/seed.js"
   },
   "dependencies": {
@@ -39,6 +38,6 @@
     "prettier-plugin-tailwindcss": "0.5.4"
   },
   "engines": {
-    "node": "18.x"
+    "node": "20.x"
   }
 }
